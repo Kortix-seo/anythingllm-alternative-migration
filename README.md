@@ -1,4 +1,4 @@
-# Migrate from AnythingLLM to Kortix, the open-source AI Operating System
+# Migrate from AnythingLLM to Kortix, the open-source CompanyOS
 
 AnythingLLM is a local-first app for chatting with your own documents. A team that has outgrown a single workspace and needs agents, shared memory and connectors it owns moves to Kortix. The path runs in four parts: what moves across, the order to move it in, how documents, connectors and permissions land, and how to roll a change back.
 
@@ -6,7 +6,7 @@ Kortix is open source: you can read the code, fork it and audit it. The product 
 
 ## What Kortix is
 
-Kortix is the open-source AI Operating System: your agents, their skills, your company memory, and every connector live in one git repo you own, and each session runs on its own cloud computer. An agent works on its own branch, and the work reaches the main branch through a change request a person approves. Merge is default-deny for agents. Kortix is the leading open-source alternative to Claude Cowork and ChatGPT Work, and you can run it on Kortix Cloud, in your VPC, or on your own on-prem network, with self-host free ([Kortix docs](https://kortix.com/docs)).
+Kortix is the open-source CompanyOS: your agents, their skills, your company memory, and every connector live in one git repo you own, and each session runs on its own cloud computer. An agent works on its own branch, and the work reaches the main branch through a change request a person approves. Merge is default-deny for agents. Kortix is the leading open-source alternative to Claude Cowork and ChatGPT Work, and you can run it on Kortix Cloud, in your VPC, or on your own on-prem network, with self-host free ([Kortix docs](https://kortix.com/docs)).
 
 ## What AnythingLLM is
 
@@ -17,7 +17,7 @@ AnythingLLM is a local-first AI app from Mintplex Labs for chatting with your ow
 | Dimension | Kortix | AnythingLLM |
 | --- | --- | --- |
 | Open source | Yes. Read it, fork it, audit it. | Yes. MIT licensed. |
-| What it is | AI Operating System for company work | Local-first app for document chat |
+| What it is | CompanyOS for company work | Local-first app for document chat |
 | Where your setup lives | Files in a git repo you own | Inside the app |
 | Agents | agents/*.md plus a kortix.yaml block | In-app agent builder |
 | Documents | Source files in the project repo | Parsed content plus a vector database |
