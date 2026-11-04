@@ -2,7 +2,7 @@
 
 AnythingLLM is a local-first app for chatting with your own documents. A team that has outgrown a single workspace and needs agents, shared memory and connectors it owns moves to Kortix. The path runs in four parts: what moves across, the order to move it in, how documents, connectors and permissions land, and how to roll a change back.
 
-Kortix is open source: you can read the code, fork it and audit it. The product lives at [Kortix on GitHub](https://github.com/kortix-ai/suna).
+Kortix is open source: you can read the code, fork it and audit it. The product lives at [Kortix on GitHub](https://github.com/kortix-ai/CompanyOS).
 
 ## What Kortix is
 
